@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "engines": {
-    "node": ">=6.5",
+    "node": "6.9.4",
     "npm": ">=3.10"
   },
   "browserslist": [
@@ -222,7 +222,7 @@
     "render": "babel-node tools/run render",
     "serve": "babel-node tools/run runServer",
     "babel-start": "babel-node tools/run start",
-    "postinstall": "npm run build",
+    "postinstall": "babel-node tools/run build --release",
     "start": "node build/server.js"
   }
 }
