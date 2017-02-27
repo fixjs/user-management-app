@@ -223,7 +223,7 @@
     "render": "./node_modules/.bin/babel-node tools/run render",
     "serve": "./node_modules/.bin/babel-node tools/run runServer",
     "babel-start": "./node_modules/.bin/babel-node tools/run start",
-    "postinstall": "NODE_ENV=production ./node_modules/.bin/babel-node tools/run build --release",
+    "postinstall": "./node_modules/.bin/babel-node tools/run build --release",
     "start": "NODE_ENV=production node build/server.js"
   }
 }
