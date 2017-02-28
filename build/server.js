@@ -865,7 +865,7 @@ Layout.propTypes = {
 const port = process.env.PORT || 3000;
 /* harmony export (immutable) */ __webpack_exports__["b"] = port;
 
-const host = process.env.WEBSITE_HOSTNAME || `localhost:3001`;
+const host = process.env.WEBSITE_HOSTNAME || `user-management-app.herokuapp.com`;
 /* harmony export (immutable) */ __webpack_exports__["d"] = host;
 
 
@@ -2158,10 +2158,10 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 
 
-const GROUPS_API_PATH = `http://${__WEBPACK_IMPORTED_MODULE_0__config__["d" /* host */]}/apis/groups`;
+const GROUPS_API_PATH = `https://${__WEBPACK_IMPORTED_MODULE_0__config__["d" /* host */]}/apis/groups`;
 /* harmony export (immutable) */ __webpack_exports__["a"] = GROUPS_API_PATH;
 
-const USERS_API_PATH = `http://${__WEBPACK_IMPORTED_MODULE_0__config__["d" /* host */]}/apis/users`;
+const USERS_API_PATH = `https://${__WEBPACK_IMPORTED_MODULE_0__config__["d" /* host */]}/apis/users`;
 /* harmony export (immutable) */ __webpack_exports__["f"] = USERS_API_PATH;
 
 

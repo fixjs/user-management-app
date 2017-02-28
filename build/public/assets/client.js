@@ -1993,8 +1993,8 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 
 
-var GROUPS_API_PATH = 'http://' + __WEBPACK_IMPORTED_MODULE_0__config__["a" /* host */] + '/apis/groups';
-var USERS_API_PATH = 'http://' + __WEBPACK_IMPORTED_MODULE_0__config__["a" /* host */] + '/apis/users';
+var GROUPS_API_PATH = 'https://' + __WEBPACK_IMPORTED_MODULE_0__config__["a" /* host */] + '/apis/groups';
+var USERS_API_PATH = 'https://' + __WEBPACK_IMPORTED_MODULE_0__config__["a" /* host */] + '/apis/users';
 
 var headers = {
   'Accept': 'application/json',
@@ -2742,7 +2742,7 @@ var _initialiseProps = function _initialiseProps() {
 /* eslint-disable max-len */
 
 var port = process.env.PORT || 3000;
-var host = process.env.WEBSITE_HOSTNAME || 'localhost:3001';
+var host = process.env.WEBSITE_HOSTNAME || 'user-management-app.herokuapp.com';
 
 var databaseUrl = process.env.DATABASE_URL || process.env.MONGOLAB_URI || process.env.MONGOHQ_URL || 'mongodb://localhost:27017/user-management-app';
 
