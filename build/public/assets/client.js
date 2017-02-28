@@ -4120,7 +4120,7 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 
             case 4:
               return _context.abrupt('return', {
-                title: 'React Starter Kit',
+                title: 'User Management Dashboard',
                 component: __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   __WEBPACK_IMPORTED_MODULE_3__components_Layout__["a" /* default */],
                   {

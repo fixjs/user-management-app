@@ -20,7 +20,7 @@ export default {
     await loadUsersList(store);
     await loadUserGroupsList(store);
     return {
-      title: 'React Starter Kit',
+      title: 'User Management Dashboard',
       component: <Layout><Home /></Layout>,
     };
   },

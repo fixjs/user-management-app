@@ -4535,7 +4535,7 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
       yield __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__utils__["a" /* loadUsersList */])(store);
       yield __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__utils__["c" /* loadUserGroupsList */])(store);
       return {
-        title: 'React Starter Kit',
+        title: 'User Management Dashboard',
         component: __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           __WEBPACK_IMPORTED_MODULE_3__components_Layout__["a" /* default */],
           {
