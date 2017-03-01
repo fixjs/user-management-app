@@ -10,7 +10,7 @@
 /* eslint-disable max-len */
 
 export const port = process.env.PORT || 3000;
-export const host = process.env.WEBSITE_HOSTNAME || `user-management-app.herokuapp.com`;
+export const host = process.env.WEBSITE_HOSTNAME || `localhost:3001`;
 
 export const databaseUrl = process.env.DATABASE_URL || process.env.MONGOLAB_URI || process.env.MONGOHQ_URL || 'mongodb://localhost:27017/user-management-app';
 

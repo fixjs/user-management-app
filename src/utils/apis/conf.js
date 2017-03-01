@@ -1,7 +1,7 @@
 import {host} from '../../config';
 
-export const GROUPS_API_PATH = `https://${host}/apis/groups`;
-export const USERS_API_PATH = `https://${host}/apis/users`;
+export const GROUPS_API_PATH = `http://${host}/apis/groups`;
+export const USERS_API_PATH = `http://${host}/apis/users`;
 
 export const headers = {
   'Accept': 'application/json',
